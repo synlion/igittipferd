@@ -28,7 +28,9 @@ while x == 1:
     first_name = first_name.lower().strip()
     system_exit() 
     last_name = get_last_name()
-    last_name = last_name.lower().strip()
+    last_name = last_name.lower().replace(" ", "")
 
     emails.append(create_email())
     print(f"Your university e-Mail address is:\n{emails[-1]}\n")
+
+    # hello github
