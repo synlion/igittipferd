@@ -4,3 +4,5 @@
 # Beginning of the tictactoe.py project. 
 
 print("Let's play TicTacToe!")
+
+print("Committing is fun!")
