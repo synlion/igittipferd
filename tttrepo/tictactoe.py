@@ -3,8 +3,19 @@
 
 # 19/02/22 davidnettes joins the effort to get the git fun going
 
-# Beginning of the tictactoe.py project. 
-# hi hi
+# Beginning of the tictactoe.py project.
+# test test
 import random
+import numpy as np
 
-print("Let's play TicTacToe!")
+class Game:
+    def __init__(self):
+        self
+        
+    def start_message(self):
+        print("Let's play TicTacToe!")
+
+
+g1 = Game()
+g1.start_message()
+
