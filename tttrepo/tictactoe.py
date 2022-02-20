@@ -5,5 +5,6 @@
 
 # Beginning of the tictactoe.py project. 
 # hi
+import random
 
 print("Let's play TicTacToe!")
