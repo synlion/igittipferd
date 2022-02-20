@@ -4,7 +4,7 @@
 # 19/02/22 davidnettes joins the effort to get the git fun going
 
 # Beginning of the tictactoe.py project.
-# test test
+
 import random
 import numpy as np
 
@@ -18,4 +18,6 @@ class Game:
 
 g1 = Game()
 g1.start_message()
+
+
 
