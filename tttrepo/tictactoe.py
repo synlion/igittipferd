@@ -1,3 +1,4 @@
+
 # 18.02.2022
 # 21:31 
 
@@ -10,4 +11,14 @@ import numpy as np
 
 
 
+
+
+print("Let's play TicTacToe!")
+
+# just printing it
+print("""\n
+    -|-|-
+    -|-|-
+    -|-|-
+    \n""")
 
