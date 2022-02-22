@@ -4,7 +4,7 @@
 
 # 19/02/22 davidnettes joins the effort to get the git fun going
 
-# Beginning of the tictactoe.py project.
+# Beginning of the tictactoe.py project..
 
 import random
 import numpy as np
