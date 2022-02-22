@@ -32,5 +32,8 @@ It's quite confusing. When opening a file in GitHub from VS Code, it brings you 
 It doesn't show up even when I go looking for it in the branches section. 
 I'm currently trying to reproduce the issue in my copy of VS Code to track down the problem source. Let's see how that goes.
 
-#### 20:32
-I also ran into some trouble with a branch called pr/3 that I certainly didn't create on purpose. So far, I haven't been able to reproduce the VS Code GitHub issue. I have to set up full GitHub integration there first. I also have to fix the Webhook. It isn't sending updates to my home server.
+###### 20:32
+I also ran into some trouble with a branch called `pr/3` that I certainly didn't create on purpose. So far, I haven't been able to reproduce the VS Code GitHub issue. I have to set up full GitHub integration there first. I also have to fix the Webhook. It isn't sending updates to my home server.
+
+###### 20:54
+Found the issue... again. You have to add `/github` at the end of the URL. I had this issue with the last Webhook as well and just totally forgot the solution. Now dinner.
