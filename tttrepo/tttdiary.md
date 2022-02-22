@@ -17,4 +17,13 @@ X|X|X O|O|O -|O|-
 So the question to figure out is how we can have inputs map onto that graphical interface. 
 
 ###### 22/2/2022 - David
-Test commits with new bot
+Test commits with new bot. 
+
+###### 22/2/2022 - Len
+20:03 - Originally I made a new Discord server for this collaborative repsository, but we've moved that over to my "home server". 
+This entry serves in part to test whether the update bot works on that server. 
+David's commit didn't go through, likely because I hadn't change the content type of the webhook to application/JSON. 
+20:12 - We are also running into some issues with branches and VS code trying to merge or work with outdated files. 
+It's quite confusing. When opening a file in GitHub from VS Code, it brings you to a branch that isn't supposed to exist and can't be viewed any other way. 
+It doesn't show up even when I go looking for it in the branches section. 
+I'm currently trying to reproduce the issue in my copy of VS Code to track down the problem source. Let's see how that goes.
