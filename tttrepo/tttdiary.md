@@ -33,4 +33,4 @@ It doesn't show up even when I go looking for it in the branches section.
 I'm currently trying to reproduce the issue in my copy of VS Code to track down the problem source. Let's see how that goes.
 
 #### 20:32
-I also ran into some trouble with a branch called pr/3 that I certainly didn't create on purpose. So far, I haven't been able to reproduce the VS Code GitHub issue. I have to set up full GitHub integration there first. 
+I also ran into some trouble with a branch called pr/3 that I certainly didn't create on purpose. So far, I haven't been able to reproduce the VS Code GitHub issue. I have to set up full GitHub integration there first. I also have to fix the Webhook. It isn't sending updates to my home server.
