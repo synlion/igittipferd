@@ -38,5 +38,5 @@ I also ran into some trouble with a branch called `pr/3` that I certainly didn't
 ###### 20:54
 Found the issue... again. You have to add `/github` at the end of the URL. I had this issue with the last Webhook as well and just totally forgot the solution. Now dinner.
 
-#### 01/03/2022
-entry needed
+#### 01/03/2022 - Len
+Today we took the first big step towards creating a working tictactoe game. David suggested we use a dictionary, so we numbered the tiles on the gameboard and created a corresponding dictionary with empty spaces that can be changed to either X's or O's. I took that setup as far as I could by writing round instructions that alternate between player 1 and player 2. This preliminary version of the game -- titled 1.0 -- gives you the option to put down squares until the board is full. Declaring a winner only works manually and players can put their own game pieces on their opponents tiles. We will try to solve that issue with a for loop that terminates once a winning condition is reached and by somehow locking tiles that have been changed once? We will see.
